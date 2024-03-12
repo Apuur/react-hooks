@@ -9,14 +9,14 @@ const callToggle = (hook: any) => {
 };
 
 describe('useToggle', () => {
-  it('测试初始值', async () => {
+  it('测试初始值', () => {
     const hook = renderHook(() => useToggle());
     // 判断初始值是否是false
     expect(hook.result.current[0]).toBeFalsy();
     // console.log('hooks', hook.result.current[0]);
   });
 
-  it('执行actions', async () => {
+  it('执行actions', () => {
     const hook = renderHook(() => useToggle('hello'));
     // 判断state是否为hello
     expect(hook.result.current[0]).toBe('hello');
