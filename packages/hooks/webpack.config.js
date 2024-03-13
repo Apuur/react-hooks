@@ -4,6 +4,7 @@ const path = require('path');
 
 module.exports = merge(common, {
   entry: './es/index.js',
+  publicPath: '/react-hooks/',
   output: {
     filename: 'encodeHooks.js',
     library: 'encodeHooks',
