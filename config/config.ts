@@ -8,8 +8,9 @@ export default {
     type: 'none',
     exclude: [],
   },
-  base: '/react-hooks/',
+
   history: { type: 'hash' },
+  publicPath: '/react-hooks/',
   extraBabelPlugins: [
     [
       'babel-plugin-import',
@@ -22,8 +23,8 @@ export default {
   ],
   mode: 'site',
   title: "xyc's",
-  favicon: '/avatar.png',
-  logo: '/logo.png',
+  favicon: '/react-hooks/avatar.png',
+  logo: '/react-hooks/logo.png',
   dynamicImport: {}, //文档构建后的 bundle 太大了，导致网站访问速度很慢，如何实现按需加载
   manifest: {},
   hash: true,
@@ -43,6 +44,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/Apuur/react-hooks/tree/gh-pages' },
   ],
   menus: {
     '/': [
