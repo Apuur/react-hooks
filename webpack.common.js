@@ -7,6 +7,8 @@ module.exports = {
   resolve: {
     extensions: ['.json', '.js'],
   },
+  publicPath: '/react-hooks/',
+
   // module: {
   //   rules: [
   //     {
