@@ -20,7 +20,7 @@ export default {
     ],
   ],
   mode: 'site',
-  title: 'xyc react hooks',
+  title: "xyc's",
   favicon: '/avatar.png',
   logo: '/logo.png',
   dynamicImport: {}, //文档构建后的 bundle 太大了，导致网站访问速度很慢，如何实现按需加载
