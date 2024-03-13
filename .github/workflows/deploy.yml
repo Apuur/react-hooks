@@ -22,6 +22,7 @@ jobs:
           npm i -g pnpm
           pnpm run init
           pnpm run build:doc
+          ls -l dist
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
 
