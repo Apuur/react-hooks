@@ -10,7 +10,7 @@ export default {
   },
 
   history: { type: 'hash' },
-  publicPath: '/react-hooks',
+  publicPath: '/react-hooks/',
   extraBabelPlugins: [
     [
       'babel-plugin-import',
